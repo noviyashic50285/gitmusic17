@@ -23,6 +23,6 @@ Array.from(split.querySelectorAll('.letter')).forEach((el, idx) => {
 		y: random(-500, 500),
 		z: random(-500, 500),
 		delay: idx * 0.02,
-		repeat: 2,
+		repeat: 1,
 	})
 });
