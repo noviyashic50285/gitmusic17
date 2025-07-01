@@ -1,0 +1,36 @@
+p{font-size: 16px;}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #060b5f;
+    overflow-y: hidden;
+    transition: 1.2s;
+}
+.overlay-content {
+    position: relative;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+}
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover,
+.overlay a:focus {
+    color: black;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    font-size: 60px;
+}
+
